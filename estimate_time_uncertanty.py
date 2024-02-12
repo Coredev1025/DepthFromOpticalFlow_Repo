@@ -153,5 +153,5 @@ def calcola_varianza_e_incertezza(dati):
 dati = [59.9766, 60.0100, 59.9933, 59.9933]  # Sostituisci con i tuoi dati
 calcola_varianza_e_incertezza(dati)
 incertezza = 0.0078 #ms
-#process_video('/home/mmt-ben/DepthFromOpticalFlow/GL010131.LRV', 'video_output.mp4', skip_start=10, skip_end=10)
-#get_video_duration('/home/mmt-ben/DepthFromOpticalFlow/video_output.mp4')
+#process_video('/home/mmt-ben/DepthFromOpticalFlow_Repo/GL010131.LRV', 'video_output.mp4', skip_start=10, skip_end=10)
+#get_video_duration('/home/mmt-ben/DepthFromOpticalFlow_Repo/video_output.mp4')

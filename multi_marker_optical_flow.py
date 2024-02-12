@@ -883,7 +883,7 @@ def extract_mu_and_sigma_from_marker(file_path, std_px=1, z_std_dev_literature=0
     Ritorna:
     - Un dizionario con solo la deviazione standard propagata per v_px e z_mean per ogni velocità.
     """
-    video_path  ="/home/mmt-ben/DepthFromOpticalFlow/video_raw"
+    video_path  ="/home/mmt-ben/DepthFromOpticalFlow_Repo/video_raw"
     dt_results = calculate_video_dt_std(video_path)
     print(dt_results)
 
@@ -1280,7 +1280,7 @@ def merge_dataset_extr_int(x, vy):
     """
     vy = abs(vy)
     # Directory path
-    directory_path = '/home/mmt-ben/DepthFromOpticalFlow/data_timestaped_raw/'
+    directory_path = '/home/mmt-ben/DepthFromOpticalFlow_Repo/data_timestaped_raw/'
 
     # Get all CSV files in the directory
     file_paths = glob.glob(f"{directory_path}/*.csv")

@@ -43,8 +43,8 @@ The project employs non-linear least squares methods to fit the depth estimation
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/bernardolanza93/DepthFromOpticalFlow.git
-    cd DepthFromOpticalFlow
+    git clone https://github.com/Coredev1025/DepthFromOpticalFlow_Repo.git
+    cd DepthFromOpticalFlow_Repo
     ```
 
 2. Install the required libraries:
